@@ -1,1 +1,124 @@
-sssss
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #FFC107;
+    --secundario: #0097A7;
+    --gris: #757575;
+    --grisClaro: #5ea9d4;
+}
+html 
+{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+ul , ol
+{
+    list-style:none;
+}
+
+.CATE > li {
+    float: left;
+}
+.CATE li ul
+{
+    display:none;
+}
+
+
+.LOGO
+{
+    display: flex;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(1%, 0%);
+}
+.Categorias{
+    display: block;
+    text-align: center;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem; 
+}
+.Categorias:hover {
+    background-color: var(--primario);
+    color: var(--oscuro);
+}
+
+.navegacion-principal 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
+.navegacion-principal a {
+    display: block;
+    text-align: center;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+.navegacion-principal a:hover {
+    background-color: var(--primario);
+    color: var(--oscuro);
+}
+.nav-bg {
+    background-color: var(--secundario);
+}
+
+body 
+{
+    font-size: 16px; /* 1rem = 10px */
+    font-family: 'Krub', sans-serif;
+    background-image: linear-gradient(to top, var(--secundario) 0%, var(--blanco) 100% );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.formulario 
+{
+    background-color: var(--secundario);
+    width: min( 60rem, 100% ); /** Utilizar el valor más pequeño **/
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.formulario fieldset 
+{
+    border: none;
+}
+
+.formulario legend 
+{
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--blanco);
+}

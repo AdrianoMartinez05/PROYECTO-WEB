@@ -4,25 +4,49 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Express Line</title>
+  <link rel="preload" href="css/style.css" as="style">
+  <link href="css/style.css" rel="stylesheet">
 </head>
-<body bgcolor="#D5E5F2">
-	<form>
 
-    <! CATEGORÍAS >
-    <center>
-      <img src="imagenes/LOGO.png" width="400"> <br>
-      <a href="#"> CATEGORÍAS</a>
-      <a href="#"> CELULARES</a>
-      <a href="#"> TABLETS</a>
-      <a href="#"> CONSOLAS</a>
-      <a href="#"> PREGUNTAS FRECUENTES</a>
+
+<!--LOGO PRINCIPAL-->
+<h6 class="LOGO">
+  <img src="imagenes/LOGO.png" width="400">
+</h6>
+
+<!--BARRA DE BUSQUEDA-->
+<header>
+  <div class="nav-bg">
+    <nav class="navegacion-principal contenedor">
+      <div class="Categorias">
+
+        <ul class="CATE">
+            <li><a href="#">Categorias</a></li>
+                <ul> 
+                  <li><a href="#">Celulares</a></li>
+                  <li><a href="#">Celulares</a></li>
+                  <li><a href="#">Celulares</a></li>
+                  <li><a href="#">Celulares</a></li>
+                  <li><a href="#">Celulares</a></li>
+                </ul>
+        </ul>
+
+
+        </select>
+    </div>
+      <a href="#"> Ofertas</a>
+      <a href="#"> Tiendas</a>
+      <a href="#"> Vender</a>
+      <a href="#"> Ayuda</a>
       <button>
         <img src="imagenes/carrito.png" width="20">
         MI CARRITO
       </button> 
-    </center>
-    <br>
-    <br>
+    </nav>
+  </div>
+</header>
+
+<!--TABLA DE PRODUCTOS-->
 <center>
     <TABLE BORDER=2 bordercolor="#012340">
     <TR>
@@ -133,9 +157,6 @@
 
 <center>
 
-
-
-
   <h1>SOBRE NOSOTROS</h1>
   <TABLE FRAME="vsides" RULES="none">
   <TR>
@@ -167,19 +188,48 @@
   </TR>
 </TABLE>
 
+<section>
+  <h2>Contacto</h2>
 
+  <form class="formulario">
+      <fieldset>
+          <legend>Contactános llenando todos los campos</legend>
 
+          <div class="contenedor-campos">
+              <div class="campo">
+                  <label>Nombre</label>
+                  <input class="input-text" type="text" placeholder="Tu Nombre">
+              </div>
 
+              <div class="campo">
+                  <label>Teléfono</label>
+                  <input class="input-text" type="tel" placeholder="Tu Teléfono">
+              </div>
 
+              <div class="campo">
+                  <label>Correo</label>
+                  <input class="input-text" type="email" placeholder="Tu Email">
+              </div>
+      
+              <div class="campo">
+                  <label>Mensaje</label>
+                  <textarea class="input-text"></textarea>
+              </div>
+          </div> <!-- .contenedor-campos -->
 
+          <div class="alinear-derecha flex">
+              <input class="boton w-sm-100" type="submit" value="Enviar">
+          </div>
+      </fieldset>
+  </form>
+</section>
 
-
-
-
-
-
+<footer class="footer">
+  <p>Todos los derechos reservados. Grupo 4</p>
+</footer>
 </center>
-	</form>
+
+
 
 </body>
 </html>
