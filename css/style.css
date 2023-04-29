@@ -188,15 +188,16 @@ body
 .formulario 
 {
     background-color: var(--secundario);
-    width: min( 60rem, 100% ); /** Utilizar el valor más pequeño **/
+    width: 60rem; /** Utilizar el valor más pequeño **/
     margin: 0 auto;
-    padding: 2rem;
+    padding: 2rem ;
     border-radius: 1rem;
 }
 
 .formulario fieldset 
 {
     border: none;
+    width: 63rem;
 }
 
 .formulario legend 
