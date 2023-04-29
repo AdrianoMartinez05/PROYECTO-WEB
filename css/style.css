@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 
 :root {
     --blanco: #ffffff;
@@ -16,6 +17,7 @@
     --masclaro: #4ec4f3;
     --azulOscuro:  #0004ff;
 }
+
 
 
 html 
@@ -130,19 +132,28 @@ body
 
 
 .producto {
-
-
-    display: flex;
     justify-content: space-between;
     justify-content: space-around;
+    font-size: 2rem;
+    font-weight: 500;
+
     
 }
+.producto a{
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+
+
+}
 .producto__nombre {
-    font-size: 4rem;
+    font-size: 2rem;
+
+    font-family: 'Comfortaa', cursive;
+
 }
 .producto__precio {
     font-size: 2.8rem;
-    color: var(--secundario);
+    color: var(--blanco);
 }
 .producto__nombre,
 .producto__precio {
@@ -179,8 +190,25 @@ body
     color: var(--blanco);
 
 }
+#FONDO2
+{
+    background-image: url(/imagenes/HERO2.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+    position:static;
+    margin-bottom: 5rem;
 
+}
+.contenido-hero2 
+{
+    color: var(--primario);
+    font-size: 5rem;
+    font-family:'Lexend Tera', sans-serif; 
+    padding:3rem;
 
+    
+}
 
 
 
@@ -190,7 +218,7 @@ body
     background-color: var(--secundario);
     width: 60rem; /** Utilizar el valor más pequeño **/
     margin: 0 auto;
-    padding: 2rem ;
+    padding: 1.5rem ;
     border-radius: 1rem;
 }
 
@@ -222,7 +250,7 @@ body
     display: block;
 }
 .campo textarea {
-    height: 20rem;
+    height: 2rem;
 }
 .input-text {
     width: 90%;
