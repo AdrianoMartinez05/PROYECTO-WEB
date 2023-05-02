@@ -268,6 +268,9 @@ body
     margin-bottom: 2rem;
     color: var(--blanco);
 }
+
+
+
 /* mensaje */
 .campo {
     margin-bottom: 1rem;
@@ -311,5 +314,61 @@ body
 }
 /*#endregion CONTACTANOS */
 
+/* productos html */
+.tabla2 {
+    width: 100rem;
+    height: 50rem;
+    background-color: var(--secundario);
+    position: relative;
 
+    border-radius: 10px;
+    
+  }
+
+
+.tabla {
+    width: 70rem;
+    height: 70rem;
+    background-color: #003cff;
+    position: relative;
+    left: 35rem;
+    border-radius: 10px;
+    
+  }
+
+.lista{
+    font-size: 4rem;
+    color: rgb(217, 255, 0);
+    font-family: 'Lexend Tera', sans-serif;
+    padding-bottom: 0.5rem;
+}
+
+.esp{
+    color: #FFC107;
+    font-family: 'Lexend Tera', sans-serif;
+}
+.sub{
+    color: white;
+    font-family: 'Lexend Tera', sans-serif;
+    font-size: 3rem;
+}
+.resp{
+    color: #07fff3;
+    font-family: 'Lexend Tera', sans-serif;
+}
+
+.nombre{
+    color: white;
+    font-size: 5rem;
+    
+}
+.precio{
+    color: #FFC107;
+    font-size: 3rem;
+}
+
+.carac{
+    color: #0004ff;
+    font-size: 2rem;
+}
 
