@@ -37,7 +37,7 @@ body
     background-image: linear-gradient(to bottom, #8ab9ff, #76b6fb, #5fb2f6, #43aff1, #12abeb);
     background-attachment: fixed;
 }
-
+/* Todos los elementos */
 * {
     margin:0px;
     padding:0px;
@@ -46,9 +46,9 @@ body
 /*#endregion general */
 
 /*#region HERO1 */
-#FONDO
+.FONDO
 {
-    background-image: url(/imagenes/HERO1.jpg);
+    background-image: url(../imagenes/HERO1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 350px;
@@ -67,6 +67,7 @@ body
     justify-content: center;
 
 }
+/* somos la primera fuerza comercial del peru */
 .contenido-hero h2
 {
     color: var(--primario);
@@ -76,7 +77,7 @@ body
     padding-right: 2rem;
     
 }
-
+/* nueva tienda digital*/
 .contenido-hero p {
     color: var(--blanco);
     font-family: 'Tilt Neon', cursive;
@@ -87,6 +88,7 @@ body
 
 /*#region Barra Menú */
 
+/* barra de navegación */
 .INICIO li a:hover{
     background-color: var(--azulOscuro)
 }
@@ -95,9 +97,14 @@ body
 	list-style: none;
 	display: flex;
 	justify-content: space-around;
+    
     font-family: 'Lexend Tera', sans-serif;
     font-size: 1rem;
-    
+
+    /* position: fixed;
+    width: 100%; */
+
+
 }
 .menu-horizontal > li > a{
 	display: block;
@@ -106,8 +113,9 @@ body
 	text-decoration: none;
 }
 .menu-horizontal > li:hover{
-	background-color: var(--secundario);
+	background-color: var(--azulOscuro);
 }
+/* sub menu */
 .menu-vertical{
 	position: absolute;
 	display: none;
@@ -115,12 +123,11 @@ body
 	width: 200px;
 	background-color: rgba(0, 111, 202, 0.788);
 }
+
 .menu-horizontal li:hover .menu-vertical{
 	display: block;
 }
-.menu-vertical li:hover{
-	background-color: black;
-}
+
 .menu-vertical li a{
 	display: block;
 	color: white;
@@ -134,7 +141,7 @@ body
 .menu-horizontal{
     background-color: var(--azulOscuro);
 }
-
+/* lo mas vendido , ofertas , descubre , etc  */
 .SECCIONES{
     font-size: 5rem;  
     font-family: 'Lexend Tera', sans-serif;
@@ -170,11 +177,12 @@ body
     font-size: 2.8rem;
     color: var(--blanco);
 }
+/* cuando esta en oferta  */
 .producto__precio del {
     font-size: 2.8rem;
     color: var(--rojo);
 }
-
+/* alineamiento */
 .producto__nombre,
 .producto__precio {
 
@@ -185,6 +193,8 @@ body
 /*#endregion Producto */
 
 /*#region NOSOTROS*/
+
+/* sobre nosotros  */
 .INFO{
     font-family: 'Lexend Tera', sans-serif;
     margin: 3rem ;
@@ -195,13 +205,15 @@ body
 
 #FONDO2
 {
-    background-image: url(/imagenes/HERO2.JPG);
+    background-image: url(../imagenes/HERO2.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     height: 120px;
     position:static;
     margin-bottom: 5rem;
 }
+
+/* conocenos */
 .contenido-hero2 
 {
     color: var(--primario);
@@ -210,7 +222,7 @@ body
     padding:3rem; 
 }
 
-
+/* mision vision objetivos */
 .INFOT{
     font-family: 'Lexend Tera', sans-serif;
     padding-left : 15rem;
@@ -218,7 +230,7 @@ body
     color: var(--primario);
     font-size: 3rem;
 }
-
+/* contenido  */
 .INFOC{
     font-family: 'Lexend Tera', sans-serif;
     padding: 3rem;
@@ -234,7 +246,7 @@ body
 .formulario 
 {
     background-color: var(--secundario);
-    width: 60rem; /** Utilizar el valor más pequeño **/
+    width: 60rem;
     margin: 0 auto;
     padding: 1.5rem ;
     border-radius: 1rem;
@@ -246,6 +258,7 @@ body
     width: 63rem;
 }
 
+/* llena todos los campos */
 .formulario legend 
 {
     text-align: center;
@@ -255,7 +268,7 @@ body
     margin-bottom: 2rem;
     color: var(--blanco);
 }
-
+/* mensaje */
 .campo {
     margin-bottom: 1rem;
 }
@@ -277,7 +290,7 @@ body
     padding: 1.5rem;
     border-radius: .5rem;
 }
-
+/* enviar */
 .boton {
     background-color: var(--azulOscuro);
     color: var(--blanco);
